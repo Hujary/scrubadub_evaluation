@@ -1,0 +1,366 @@
+BA SUMMARY | POLICY: application_oriented
+NER_BACKEND: spacy
+NER_MODEL: de_core_news_lg
+POSTPROCESSING: off
+
+GESAMTERGEBNIS (micro-aggregated)
+----------------------------------------------------------------------
+TP: 238
+FP: 89
+FN: 171
+Precision: 0.728
+Recall: 0.582
+F1: 0.647
+
+LABELERGEBNISSE
+----------------------------------------------------------------------
+DATUM        TP=  0 FP=  0 FN= 72 P=0.000 R=0.000 F1=0.000
+E_MAIL       TP= 25 FP=  0 FN= 14 P=1.000 R=0.641 F1=0.781
+IBAN         TP=  0 FP=  0 FN=  2 P=0.000 R=0.000 F1=0.000
+IP_ADRESSE   TP=  0 FP=  0 FN=  2 P=0.000 R=0.000 F1=0.000
+LOC          TP= 33 FP=  1 FN= 13 P=0.971 R=0.717 F1=0.825
+LOCATION     TP=  0 FP= 22 FN=  0 P=0.000 R=0.000 F1=0.000
+ORG          TP= 37 FP=  4 FN= 15 P=0.902 R=0.712 F1=0.796
+ORGANIZATION TP=  0 FP= 24 FN=  0 P=0.000 R=0.000 F1=0.000
+PER          TP=104 FP=  4 FN= 18 P=0.963 R=0.852 F1=0.904
+PERSON       TP=  0 FP= 11 FN=  0 P=0.000 R=0.000 F1=0.000
+PHONE_NUMBER TP=  0 FP= 19 FN=  0 P=0.000 R=0.000 F1=0.000
+PLZ          TP=  0 FP=  0 FN= 21 P=0.000 R=0.000 F1=0.000
+STRASSE      TP= 16 FP=  2 FN=  6 P=0.889 R=0.727 F1=0.800
+TELEFON      TP= 19 FP=  0 FN=  1 P=1.000 R=0.950 F1=0.974
+URL          TP=  4 FP=  2 FN=  7 P=0.667 R=0.364 F1=0.471
+
+VERBLEIBENDE FEHLFÄLLE
+----------------------------------------------------------------------
+DATUM
+  FN (72):
+    - Dataset_01 435:445 [gold] '03.02.2024'
+    - Dataset_02 671:681 [gold] '14.02.2024'
+    - Dataset_02 868:878 [gold] '13.02.2024'
+    - Dataset_03 427:437 [gold] '18.02.2024'
+    - Dataset_04 615:625 [gold] '19.02.2024'
+    - Dataset_05 459:469 [gold] '24.02.2024'
+    - Dataset_05 549:559 [gold] '23.02.2024'
+    - Dataset_06 460:470 [gold] '26.02.2024'
+    - Dataset_06 548:558 [gold] '25.02.2024'
+    - Dataset_07 71:81 [gold] '04.03.2024'
+    - Dataset_07 202:212 [gold] '20.02.2024'
+    - Dataset_07 282:292 [gold] '10.03.2024'
+    - Dataset_08 73:83 [gold] '05.03.2024'
+    - Dataset_08 521:531 [gold] '12.03.2024'
+    - Dataset_09 61:71 [gold] '06.03.2024'
+    - Dataset_09 446:456 [gold] '06.03.2024'
+    - Dataset_10 65:75 [gold] '07.03.2024'
+    - Dataset_10 367:377 [gold] '05.03.2024'
+    - Dataset_11 74:84 [gold] '08.03.2024'
+    - Dataset_11 409:419 [gold] '06.03.2024'
+    - Dataset_11 433:443 [gold] '11.03.2024'
+    - Dataset_12 64:74 [gold] '09.03.2024'
+    - Dataset_12 402:412 [gold] '02.03.2024'
+    - Dataset_12 604:614 [gold] '08.03.2024'
+    - Dataset_13 65:75 [gold] '09.01.1991'
+    - Dataset_13 189:196 [gold] '07/2021'
+    - Dataset_13 377:384 [gold] '03/2017'
+    - Dataset_13 387:394 [gold] '06/2021'
+    - Dataset_13 451:458 [gold] '10/2012'
+    - Dataset_13 461:468 [gold] '02/2017'
+    - Dataset_14 113:123 [gold] '27.04.1996'
+    - Dataset_14 247:254 [gold] '02/2022'
+    - Dataset_14 432:439 [gold] '09/2019'
+    - Dataset_14 442:449 [gold] '01/2022'
+    - Dataset_15 181:191 [gold] '18.02.1994'
+    - Dataset_15 324:331 [gold] '04/2021'
+    - Dataset_15 419:426 [gold] '01/2019'
+    - Dataset_15 431:438 [gold] '03/2021'
+    - Dataset_16 109:119 [gold] '03.11.1992'
+    - Dataset_16 254:261 [gold] '03/2017'
+    - Dataset_16 262:269 [gold] '02/2019'
+    - Dataset_17 81:91 [gold] '04.02.2024'
+    - Dataset_17 282:292 [gold] '21.08.1990'
+    - Dataset_18 74:84 [gold] '12.01.2024'
+    - Dataset_18 246:253 [gold] '04/2018'
+    - Dataset_18 258:265 [gold] '06/2023'
+    - Dataset_19 528:538 [gold] '01.04.2025'
+    - Dataset_19 1520:1530 [gold] '12.03.2025'
+    - Dataset_20 531:541 [gold] '01.07.2025'
+    - Dataset_20 1465:1475 [gold] '15.04.2025'
+    - Dataset_21 989:999 [gold] '20.04.2025'
+    - Dataset_21 1030:1040 [gold] '20.04.2025'
+    - Dataset_22 939:949 [gold] '05.05.2025'
+    - Dataset_22 982:992 [gold] '05.05.2025'
+    - Dataset_23 287:297 [gold] '01.05.2025'
+    - Dataset_23 2740:2750 [gold] '18.03.2025'
+    - Dataset_24 330:340 [gold] '01.06.2025'
+    - Dataset_24 3056:3066 [gold] '22.04.2025'
+    - Dataset_25 955:965 [gold] '12.05.2025'
+    - Dataset_26 757:767 [gold] '30.06.2025'
+    - Dataset_27 97:107 [gold] '21.05.2025'
+    - Dataset_27 759:769 [gold] '31.12.2025'
+    - Dataset_28 95:105 [gold] '04.06.2025'
+    - Dataset_28 235:245 [gold] '01.03.2022'
+    - Dataset_28 395:405 [gold] '01.07.2025'
+    - Dataset_28 1103:1113 [gold] '20.06.2025'
+    - Dataset_29 61:71 [gold] '16.05.2025'
+    - Dataset_29 840:850 [gold] '14.05.2025'
+    - Dataset_30 85:95 [gold] '03.06.2025'
+    - Dataset_30 366:376 [gold] '15.04.2025'
+    - Dataset_30 985:995 [gold] '12.02.2024'
+    - Dataset_30 1454:1464 [gold] '10.06.2025'
+
+E_MAIL
+  FN (14):
+    - Dataset_02 131:158 [gold] 'laura.schmid@kramer-sohn.de'
+    - Dataset_03 331:359 [gold] 'tobias.klein@klein-handel.de'
+    - Dataset_04 293:319 [gold] 'simon.franke@franke-bau.de'
+    - Dataset_05 365:397 [gold] 'markus.weber@pixelforge-media.de'
+    - Dataset_07 5:28 [gold] 'finance@alphacore-ag.de'
+    - Dataset_08 43:65 [gold] 'service@urbanenergy.de'
+    - Dataset_09 36:53 [gold] 'it@mediconnect.de'
+    - Dataset_10 36:57 [gold] 'support@fleetcloud.io'
+    - Dataset_11 336:366 [gold] 'oliver.braun@bluewave-media.de'
+    - Dataset_12 5:29 [gold] 'julia.krause@interlog.de'
+    - Dataset_12 292:321 [gold] 'martin.schulz@nordlogistik.de'
+    - Dataset_17 50:77 [gold] 'thomas.berger@bewerbung.net'
+    - Dataset_18 154:178 [gold] 'k.sommer@private-mail.de'
+    - Dataset_27 573:611 [gold] 'michael.bergmann@bergmann-industrie.de'
+
+IBAN
+  FN (2):
+    - Dataset_07 364:386 [gold] 'DE44500105175407324931'
+    - Dataset_19 1010:1037 [gold] 'DE91 6005 0101 2345 6789 01'
+
+IP_ADRESSE
+  FN (2):
+    - Dataset_25 615:627 [gold] '84.167.23.91'
+    - Dataset_29 611:620 [gold] '10.0.4.22'
+
+LOC
+  PARTIAL (1):
+    - Dataset_16 gold:91:95 [gold] 'Köln' <- pred:ner:85:95 '50667 Köln'
+  FN (12):
+    - Dataset_13 244:253 [gold] 'Frankfurt'
+    - Dataset_14 46:53 [gold] 'Münster'
+    - Dataset_14 287:294 [gold] 'Münster'
+    - Dataset_14 464:472 [gold] 'Dortmund'
+    - Dataset_19 1505:1514 [gold] 'Stuttgart'
+    - Dataset_20 74:83 [gold] 'Stuttgart'
+    - Dataset_20 189:198 [gold] 'Stuttgart'
+    - Dataset_20 1450:1459 [gold] 'Stuttgart'
+    - Dataset_21 1015:1024 [gold] 'Stuttgart'
+    - Dataset_22 969:976 [gold] 'München'
+    - Dataset_23 2725:2734 [gold] 'Stuttgart'
+    - Dataset_24 3041:3050 [gold] 'Stuttgart'
+
+LOCATION
+  FP (22):
+    - Dataset_02 492:504 [ner] 'Admin-Portal'
+    - Dataset_02 693:715 [ner] 'Beispiel-Bestellnummer'
+    - Dataset_06 548:558 [ner] '25.02.2024'
+    - Dataset_06 746:760 [ner] 'Export-Service'
+    - Dataset_09 93:108 [ner] 'Patientenportal'
+    - Dataset_12 323:326 [ner] 'Tel'
+    - Dataset_13 277:292 [ner] 'Cloud-Migration'
+    - Dataset_15 530:579 [ner] 'Friedrich-Alexander-Universität Erlangen-Nürnberg'
+    - Dataset_15 593:597 [ner] 'Java'
+    - Dataset_19 354:358 [ner] 'Flur'
+    - Dataset_19 454:464 [ner] 'Waschraums'
+    - Dataset_19 528:541 [ner] '01.04.2025.
+
+'
+    - Dataset_19 1010:1029 [ner] 'DE91 6005 0101 2345'
+    - Dataset_19 1105:1121 [ner] 'Monatskaltmieten'
+    - Dataset_20 360:371 [ner] 'Ladenflache'
+    - Dataset_20 531:544 [ner] '01.07.2025.
+
+'
+    - Dataset_25 520:539 [ner] 'Self-Service-Portal'
+    - Dataset_28 395:406 [ner] '01.07.2025.'
+    - Dataset_28 736:742 [ner] 'Daniel'
+    - Dataset_29 141:160 [ner] 'Reporting-Dashboard'
+    - Dataset_29 866:880 [ner] 'Datenbank-Last'
+    - Dataset_30 641:648 [ner] 'WL-2025'
+
+ORG
+  PARTIAL (4):
+    - Dataset_04 gold:346:357 [gold] 'Franke Bau' <- pred:ner:346:369 'Franke Bau GmbH
+Telefon'
+    - Dataset_06 gold:294:313 [gold] 'CloudWare Solutions' <- pred:ner:294:319 'CloudWare Solutions GmbH.'
+    - Dataset_23 gold:2755:2774 [gold] 'Bergmann IT-Systeme' <- pred:ner:2755:2763 'Bergmann'
+    - Dataset_24 gold:3071:3096 [gold] 'Hansen & Reuter Logistik' <- pred:ner:3071:3086 'Hansen & Reuter'
+  FN (11):
+    - Dataset_02 222:233 [gold] 'Kramer-Sued'
+    - Dataset_03 313:325 [gold] 'Klein Handel'
+    - Dataset_11 107:115 [gold] 'BlueWave'
+    - Dataset_13 486:518 [gold] 'Technische Universität Darmstadt'
+    - Dataset_15 530:561 [gold] 'Friedrich-Alexander-Universität'
+    - Dataset_17 162:173 [gold] 'DeltaLogix'
+    - Dataset_20 30:47 [gold] 'Linden Immobilien'
+    - Dataset_20 146:158 [gold] 'Urban Coffee'
+    - Dataset_20 1507:1524 [gold] 'Linden Immobilien'
+    - Dataset_20 1560:1572 [gold] 'Urban Coffee'
+    - Dataset_30 839:847 [gold] 'TransLog'
+
+ORGANIZATION
+  FP (24):
+    - Dataset_02 901:915 [ner] 'Export-Service'
+    - Dataset_04 526:537 [ner] 'SMS-Gateway'
+    - Dataset_05 735:737 [ner] 'MB'
+    - Dataset_13 244:265 [ner] 'Frankfurt
+
+• Beratung'
+    - Dataset_14 287:296 [ner] 'Münster
+
+'
+    - Dataset_14 464:486 [ner] 'Dortmund
+
+Akademischer'
+    - Dataset_18 0:2 [ner] 'FW'
+    - Dataset_18 341:365 [ner] 'Machine-Learning-Modelle'
+    - Dataset_19 991:1001 [ner] 'uberweisen'
+    - Dataset_19 1043:1054 [ner] 'SOLADEST600'
+    - Dataset_20 0:18 [ner] 'GEWERBEMIETVERTRAG'
+    - Dataset_21 260:265 [ner] 'Apple'
+    - Dataset_21 304:320 [ner] 'M1 Pro Prozessor'
+    - Dataset_23 0:14 [ner] 'ARBEITSVERTRAG'
+    - Dataset_24 0:14 [ner] 'ARBEITSVERTRAG'
+    - Dataset_25 32:49 [ner] 'Internes Helpdesk'
+    - Dataset_25 70:88 [ner] 'Betroffenes System'
+    - Dataset_25 852:862 [ner] 'MFA-Resync'
+    - Dataset_26 481:492 [ner] 'IT-Security'
+    - Dataset_26 738:745 [ner] 'Go-Live'
+    - Dataset_27 33:53 [ner] 'CRM-Datenbereinigung'
+    - Dataset_29 0:7 [ner] 'Channel'
+    - Dataset_29 941:951 [ner] 'Projekt-ID'
+    - Dataset_30 630:640 [ner] 'Projekt-ID'
+
+PER
+  PARTIAL (4):
+    - Dataset_03 gold:300:312 [gold] 'Tobias Klein' <- pred:ner:300:325 'Tobias Klein
+Klein Handel'
+    - Dataset_15 gold:12:23 [gold] 'Lukas Meier' <- pred:ner:12:25 'Lukas Meier
+
+'
+    - Dataset_17 gold:21:34 [gold] 'Thomas Berger' <- pred:ner:21:40 'Thomas Berger
+
+Mail'
+    - Dataset_28 gold:607:620 [gold] 'Miriam Scholz' <- pred:ner:607:623 'Miriam Scholz:#-'
+  FN (14):
+    - Dataset_07 141:152 [gold] 'Frau Berger'
+    - Dataset_09 562:568 [gold] 'Sabine'
+    - Dataset_10 561:567 [gold] 'Thomas'
+    - Dataset_11 469:481 [gold] 'Markus Weber'
+    - Dataset_11 596:600 [gold] 'Lisa'
+    - Dataset_12 698:703 [gold] 'Julia'
+    - Dataset_21 206:217 [gold] 'Herr Berger'
+    - Dataset_21 1045:1057 [gold] 'Lukas Berger'
+    - Dataset_21 1062:1074 [gold] 'Nina Hofmann'
+    - Dataset_22 997:1014 [gold] 'Katharina Schmitt'
+    - Dataset_22 1019:1030 [gold] 'Daniel Roth'
+    - Dataset_24 307:317 [gold] 'Herr Weber'
+    - Dataset_25 404:415 [gold] 'Herr Vogel'
+    - Dataset_30 1437:1446 [gold] 'Dr. König'
+
+PERSON
+  FP (11):
+    - Dataset_01 9:21 [ner] 'Login-Fehler'
+    - Dataset_04 198:206 [ner] 'SMS-Code'
+    - Dataset_11 94:96 [ner] 'Re'
+    - Dataset_11 528:531 [ner] 'Tel'
+    - Dataset_18 570:574 [ner] 'Evtl'
+    - Dataset_23 142:156 [ner] 'Rotebühlstraße'
+    - Dataset_26 398:408 [ner] 'Testimport'
+    - Dataset_27 0:23 [ner] 'Exportierter Teams-Chat'
+    - Dataset_28 212:226 [ner] 'Eintrittsdatum'
+    - Dataset_29 473:486 [ner] 'Leopoldstraße'
+    - Dataset_30 414:446 [ner] '\fileserver01\compliance\2025.
+
+'
+
+PHONE_NUMBER
+  FP (19):
+    - Dataset_01 435:445 [regex] '03.02.2024'
+    - Dataset_07 71:81 [regex] '04.03.2024'
+    - Dataset_08 73:83 [regex] '05.03.2024'
+    - Dataset_09 61:71 [regex] '06.03.2024'
+    - Dataset_09 445:456 [regex] '(06.03.2024'
+    - Dataset_10 65:75 [regex] '07.03.2024'
+    - Dataset_10 367:377 [regex] '05.03.2024'
+    - Dataset_11 74:84 [regex] '08.03.2024'
+    - Dataset_11 409:419 [regex] '06.03.2024'
+    - Dataset_12 402:412 [regex] '02.03.2024'
+    - Dataset_12 603:614 [regex] '(08.03.2024'
+    - Dataset_13 377:394 [regex] '03/2017 – 06/2021'
+    - Dataset_14 431:449 [regex] '(09/2019 – 01/2022'
+    - Dataset_16 253:269 [regex] '(03/2017–02/2019'
+    - Dataset_17 81:91 [regex] '04.02.2024'
+    - Dataset_22 939:949 [regex] '05.05.2025'
+    - Dataset_22 982:992 [regex] '05.05.2025'
+    - Dataset_28 95:105 [regex] '04.06.2025'
+    - Dataset_30 85:95 [regex] '03.06.2025'
+
+PLZ
+  FN (21):
+    - Dataset_13 85:90 [gold] '60313'
+    - Dataset_14 40:45 [gold] '48143'
+    - Dataset_15 226:231 [gold] '90402'
+    - Dataset_16 85:90 [gold] '50667'
+    - Dataset_18 194:199 [gold] '70563'
+    - Dataset_19 67:72 [gold] '70182'
+    - Dataset_19 152:157 [gold] '70174'
+    - Dataset_19 289:294 [gold] '70174'
+    - Dataset_20 68:73 [gold] '70173'
+    - Dataset_20 183:188 [gold] '70178'
+    - Dataset_20 399:404 [gold] '70173'
+    - Dataset_21 72:77 [gold] '70190'
+    - Dataset_21 148:153 [gold] '70178'
+    - Dataset_22 81:86 [gold] '80333'
+    - Dataset_22 155:160 [gold] '80337'
+    - Dataset_23 71:76 [gold] '70173'
+    - Dataset_23 162:167 [gold] '70178'
+    - Dataset_24 80:85 [gold] '70469'
+    - Dataset_24 218:223 [gold] '70188'
+    - Dataset_27 417:422 [gold] '20457'
+    - Dataset_28 767:772 [gold] '70182'
+
+STRASSE
+  PARTIAL (2):
+    - Dataset_19 gold:274:285 [gold] 'Hegelstraße' <- pred:ner:268:285 'Hause Hegelstraße'
+    - Dataset_20 gold:383:394 [gold] 'Konigstraße' <- pred:ner:375:394 'Gebaude Konigstraße'
+  FN (4):
+    - Dataset_14 23:36 [gold] 'Bahnhofstraße'
+    - Dataset_23 142:156 [gold] 'Rotebühlstraße'
+    - Dataset_28 752:763 [gold] 'Rosenstraße'
+    - Dataset_29 473:486 [gold] 'Leopoldstraße'
+
+TELEFON
+  FN (1):
+    - Dataset_15 249:262 [gold] '0171 99887766'
+
+URL
+  PARTIAL (2):
+    - Dataset_05 gold:623:657 [gold] 'https://portal.pixelforge-media.de' <- pred:regex:623:658 'https://portal.pixelforge-media.de.'
+    - Dataset_10 gold:450:481 [gold] 'https://dashboard.fleetcloud.io' <- pred:regex:450:482 'https://dashboard.fleetcloud.io.'
+  FN (5):
+    - Dataset_12 506:536 [gold] 'https://portal.nordlogistik.de'
+    - Dataset_25 102:123 [gold] 'vpn01.firma-intern.de'
+    - Dataset_26 426:456 [gold] 'erp-test01.techsolutions.local'
+    - Dataset_29 161:188 [gold] 'report-fin-02.spintex.local'
+    - Dataset_29 583:606 [gold] 'db-fin-02.spintex.local'
+
+ROHE LABEL-ZUSTÄNDE
+----------------------------------------------------------------------
+DATUM        TP=  0 PARTIAL=  0 FN= 72 FP=  0
+E_MAIL       TP= 25 PARTIAL=  0 FN= 14 FP=  0
+IBAN         TP=  0 PARTIAL=  0 FN=  2 FP=  0
+IP_ADRESSE   TP=  0 PARTIAL=  0 FN=  2 FP=  0
+LOC          TP= 33 PARTIAL=  1 FN= 12 FP=  0
+LOCATION     TP=  0 PARTIAL=  0 FN=  0 FP= 22
+ORG          TP= 37 PARTIAL=  4 FN= 11 FP=  0
+ORGANIZATION TP=  0 PARTIAL=  0 FN=  0 FP= 24
+PER          TP=104 PARTIAL=  4 FN= 14 FP=  0
+PERSON       TP=  0 PARTIAL=  0 FN=  0 FP= 11
+PHONE_NUMBER TP=  0 PARTIAL=  0 FN=  0 FP= 19
+PLZ          TP=  0 PARTIAL=  0 FN= 21 FP=  0
+STRASSE      TP= 16 PARTIAL=  2 FN=  4 FP=  0
+TELEFON      TP= 19 PARTIAL=  0 FN=  1 FP=  0
+URL          TP=  4 PARTIAL=  2 FN=  5 FP=  0

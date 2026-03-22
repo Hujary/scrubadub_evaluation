@@ -1,0 +1,36 @@
+DATASET      | DOMAIN         | POLICY               | COUNTS                          | METRICS
+---------------------------------------------------------------------------------------------
+Dataset_01   | Supporttickets | application_oriented | TP=  5 FP=  2 FN=  1 | P=0.714 R=0.833 F1=0.769
+Dataset_02   | Supporttickets | application_oriented | TP=  4 FP=  3 FN=  4 | P=0.571 R=0.500 F1=0.533
+Dataset_03   | Supporttickets | application_oriented | TP=  3 FP=  1 FN=  4 | P=0.750 R=0.429 F1=0.545
+Dataset_04   | Supporttickets | application_oriented | TP=  3 FP=  3 FN=  3 | P=0.500 R=0.500 F1=0.500
+Dataset_05   | Supporttickets | application_oriented | TP=  4 FP=  2 FN=  4 | P=0.667 R=0.500 F1=0.571
+Dataset_06   | Supporttickets | application_oriented | TP=  5 FP=  3 FN=  3 | P=0.625 R=0.625 F1=0.625
+Dataset_07   | E-Mail         | application_oriented | TP=  7 FP=  1 FN=  6 | P=0.875 R=0.538 F1=0.667
+Dataset_08   | E-Mail         | application_oriented | TP=  7 FP=  1 FN=  3 | P=0.875 R=0.700 F1=0.778
+Dataset_09   | E-Mail         | application_oriented | TP=  4 FP=  3 FN=  4 | P=0.571 R=0.500 F1=0.533
+Dataset_10   | E-Mail         | application_oriented | TP=  5 FP=  3 FN=  5 | P=0.625 R=0.500 F1=0.556
+Dataset_11   | E-Mail         | application_oriented | TP=  7 FP=  4 FN=  7 | P=0.636 R=0.500 F1=0.560
+Dataset_12   | E-Mail         | application_oriented | TP=  5 FP=  3 FN=  7 | P=0.625 R=0.417 F1=0.500
+Dataset_13   | HR-Dokumente   | application_oriented | TP=  7 FP=  3 FN=  9 | P=0.700 R=0.438 F1=0.538
+Dataset_14   | HR-Dokumente   | application_oriented | TP=  6 FP=  3 FN=  9 | P=0.667 R=0.400 F1=0.500
+Dataset_15   | HR-Dokumente   | application_oriented | TP=  8 FP=  3 FN=  8 | P=0.727 R=0.500 F1=0.593
+Dataset_16   | HR-Dokumente   | application_oriented | TP=  7 FP=  2 FN=  5 | P=0.778 R=0.583 F1=0.667
+Dataset_17   | HR-Dokumente   | application_oriented | TP=  5 FP=  2 FN=  5 | P=0.714 R=0.500 F1=0.588
+Dataset_18   | HR-Dokumente   | application_oriented | TP=  8 FP=  3 FN=  5 | P=0.727 R=0.615 F1=0.667
+Dataset_19   | Verträge       | application_oriented | TP=  9 FP=  8 FN=  8 | P=0.529 R=0.529 F1=0.529
+Dataset_20   | Verträge       | application_oriented | TP=  6 FP=  4 FN= 13 | P=0.600 R=0.316 F1=0.414
+Dataset_21   | Verträge       | application_oriented | TP=  8 FP=  2 FN=  8 | P=0.800 R=0.500 F1=0.615
+Dataset_22   | Verträge       | application_oriented | TP=  9 FP=  2 FN=  7 | P=0.818 R=0.562 F1=0.667
+Dataset_23   | Verträge       | application_oriented | TP=  7 FP=  3 FN=  7 | P=0.700 R=0.500 F1=0.583
+Dataset_24   | Verträge       | application_oriented | TP=  9 FP=  2 FN=  7 | P=0.818 R=0.562 F1=0.667
+Dataset_25   | Chats          | application_oriented | TP= 11 FP=  4 FN=  4 | P=0.733 R=0.733 F1=0.733
+Dataset_26   | Chats          | application_oriented | TP= 12 FP=  3 FN=  2 | P=0.800 R=0.857 F1=0.828
+Dataset_27   | Chats          | application_oriented | TP= 17 FP=  2 FN=  4 | P=0.895 R=0.810 F1=0.850
+Dataset_28   | Chats          | application_oriented | TP= 17 FP=  5 FN=  7 | P=0.773 R=0.708 F1=0.739
+Dataset_29   | Chats          | application_oriented | TP= 17 FP=  5 FN=  6 | P=0.773 R=0.739 F1=0.756
+Dataset_30   | Chats          | application_oriented | TP= 16 FP=  4 FN=  6 | P=0.800 R=0.727 F1=0.762
+
+GLOBAL SUMMARY (micro-averaged over all datasets)
+----------------------------------------------------------------------
+POLICY application_oriented | TP= 238 FP=  89 FN= 171 | P=0.728 R=0.582 F1=0.647
