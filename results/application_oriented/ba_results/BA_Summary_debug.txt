@@ -7,10 +7,10 @@ GESAMTERGEBNIS (micro-aggregated)
 ----------------------------------------------------------------------
 TP: 238
 FP: 89
-FN: 171
+FN: 172
 Precision: 0.728
-Recall: 0.582
-F1: 0.647
+Recall: 0.580
+F1: 0.646
 
 LABELERGEBNISSE
 ----------------------------------------------------------------------
@@ -22,7 +22,7 @@ LOC          TP= 33 FP=  1 FN= 13 P=0.971 R=0.717 F1=0.825
 LOCATION     TP=  0 FP= 22 FN=  0 P=0.000 R=0.000 F1=0.000
 ORG          TP= 37 FP=  4 FN= 15 P=0.902 R=0.712 F1=0.796
 ORGANIZATION TP=  0 FP= 24 FN=  0 P=0.000 R=0.000 F1=0.000
-PER          TP=104 FP=  4 FN= 18 P=0.963 R=0.852 F1=0.904
+PER          TP=104 FP=  4 FN= 19 P=0.963 R=0.846 F1=0.900
 PERSON       TP=  0 FP= 11 FN=  0 P=0.000 R=0.000 F1=0.000
 PHONE_NUMBER TP=  0 FP= 19 FN=  0 P=0.000 R=0.000 F1=0.000
 PLZ          TP=  0 FP=  0 FN= 21 P=0.000 R=0.000 F1=0.000
@@ -244,7 +244,7 @@ Klein Handel'
 
 Mail'
     - Dataset_28 gold:607:620 [gold] 'Miriam Scholz' <- pred:ner:607:623 'Miriam Scholz:#-'
-  FN (14):
+  FN (15):
     - Dataset_07 141:152 [gold] 'Frau Berger'
     - Dataset_09 562:568 [gold] 'Sabine'
     - Dataset_10 561:567 [gold] 'Thomas'
@@ -258,6 +258,7 @@ Mail'
     - Dataset_22 1019:1030 [gold] 'Daniel Roth'
     - Dataset_24 307:317 [gold] 'Herr Weber'
     - Dataset_25 406:416 [gold] 'Herr Vogel'
+    - Dataset_28 736:742 [gold] 'Daniel'
     - Dataset_30 1437:1446 [gold] 'Dr. König'
 
 PERSON
@@ -357,7 +358,7 @@ LOC          TP= 33 PARTIAL=  1 FN= 12 FP=  0
 LOCATION     TP=  0 PARTIAL=  0 FN=  0 FP= 22
 ORG          TP= 37 PARTIAL=  4 FN= 11 FP=  0
 ORGANIZATION TP=  0 PARTIAL=  0 FN=  0 FP= 24
-PER          TP=104 PARTIAL=  4 FN= 14 FP=  0
+PER          TP=104 PARTIAL=  4 FN= 15 FP=  0
 PERSON       TP=  0 PARTIAL=  0 FN=  0 FP= 11
 PHONE_NUMBER TP=  0 PARTIAL=  0 FN=  0 FP= 19
 PLZ          TP=  0 PARTIAL=  0 FN= 21 FP=  0

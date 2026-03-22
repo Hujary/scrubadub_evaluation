@@ -1112,7 +1112,7 @@ DATASET: Dataset_28
 DOMAIN: Chats
 
 POLICY application_oriented
-TP=17 FP=5 FN=7 | P=0.773 R=0.708 F1=0.739
+TP=17 FP=5 FN=8 | P=0.773 R=0.680 F1=0.723
 
 TARGET LABELS
 ----------------------------------------------------------------------
@@ -1131,6 +1131,7 @@ DATUM       395:405  '01.07.2025'
 PER         483:495  'Robert Klein'
 PER         607:620  'Miriam Scholz'
 PER         710:722  'Robert Klein'
+PER         736:742  'Daniel'
 STRASSE     752:763  'Rosenstraße' | ALT: 752:765 'Rosenstraße 8'
 PLZ         767:772  '70182'
 LOC         773:782  'Stuttgart'
@@ -1161,6 +1162,7 @@ FP      LOCATION    395:406  '01.07.2025.'
 TP      PER         483:495  'Robert Klein' | pred PERSON          483:495  'Robert Klein'
 FP/FN   PER         607:620  'Miriam Scholz' | pred PERSON          607:623  'Miriam Scholz:#-'
 TP      PER         710:722  'Robert Klein' | pred PERSON          710:722  'Robert Klein'
+FN      PER         736:742  'Daniel'
 FP      LOCATION    736:742  'Daniel'
 FN      STRASSE     752:763  'Rosenstraße'
 FN      PLZ         767:772  '70182'
@@ -1303,4 +1305,4 @@ FN      DATUM      1454:1464 '10.06.2025'
 
 GLOBAL SUMMARY (micro-averaged over all datasets)
 ----------------------------------------------------------------------
-POLICY application_oriented | TP= 238 FP=  89 FN= 171 | P=0.728 R=0.582 F1=0.647
+POLICY application_oriented | TP= 238 FP=  89 FN= 172 | P=0.728 R=0.580 F1=0.646
