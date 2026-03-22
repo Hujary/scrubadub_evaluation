@@ -84,23 +84,23 @@
       "end": 385,
       "text": "Julia Schneider"
     },
-    {
+{
       "label": "PER",
       "expected_sources": [
         "ner"
       ],
       "alternatives": [
         {
-          "start": 404,
-          "end": 415,
+          "start": 406,
+          "end": 416,
           "text": "Herr Vogel",
           "expected_sources": [
             "ner"
           ]
         },
         {
-          "start": 409,
-          "end": 415,
+          "start": 411,
+          "end": 416,
           "text": "Vogel",
           "expected_sources": [
             "ner"

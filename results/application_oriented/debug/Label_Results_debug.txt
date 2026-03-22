@@ -471,7 +471,7 @@ NICHT ERKANNT (FN): 14
   - Dataset_22 997:1014 [gold] 'Katharina Schmitt'
   - Dataset_22 1019:1030 [gold] 'Daniel Roth'
   - Dataset_24 307:317 [gold] 'Herr Weber'
-  - Dataset_25 404:415 [gold] 'Herr Vogel'
+  - Dataset_25 406:416 [gold] 'Herr Vogel'
   - Dataset_30 1437:1446 [gold] 'Dr. König'
 
 
